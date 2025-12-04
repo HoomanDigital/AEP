@@ -4,10 +4,7 @@
     "title": "AEP Purpose and Guidelines",
     "status": "Final",
     "type": "Meta",
-    "author": [
-      "Greg Osuri (@gosuri)",
-      "Adam Bozanich (@boz)"
-    ],
+    "author": "Greg Osuri (@gosuri) Adam Bozanich (@boz)",
     "discussions-to": "https://github.com/ovrclk/aep/issues/1",
     "created": "2020-03-09T00:00:00.000Z",
     "updated": "2020-03-17T00:00:00.000Z"
@@ -24,10 +21,7 @@
   {
     "aep": 11,
     "title": "Managed Services Market",
-    "author": [
-      "Greg Osuri (@gosuri)",
-      "Adam Bozanich (@boz)"
-    ],
+    "author": "Greg Osuri (@gosuri) Adam Bozanich (@boz)",
     "status": "Draft",
     "type": "Standard",
     "category": "Core",
@@ -38,26 +32,20 @@
   {
     "aep": 12,
     "title": "Trusted Execution Environment (TEE)",
-    "author": [
-      "Adam Bozanich (@boz)",
-      "Greg Osuri (@gosuri)"
-    ],
+    "author": "Adam Bozanich (@boz) Greg Osuri (@gosuri)",
     "discussions-to": "https://github.com/orgs/akash-network/discussions/614",
     "status": "Draft",
     "type": "Standard",
     "category": "Core",
     "created": "2020-03-17T00:00:00.000Z",
-    "updated": "2024-12-01T00:00:00.000Z",
-    "estimated-completion": "2025-06-30T00:00:00.000Z",
+    "updated": "2025-07-30T00:00:00.000Z",
+    "estimated-completion": "2025-09-30T00:00:00.000Z",
     "roadmap": "major"
   },
   {
     "aep": 13,
     "title": "Mainnet 2: DCX Platform",
-    "author": [
-      "Kaustubh Patral (@kaustubhkapatral)",
-      "Greg Osuri (@gosuri)"
-    ],
+    "author": "Kaustubh Patral (@kaustubhkapatral) Greg Osuri (@gosuri)",
     "status": "Final",
     "type": "Standard",
     "category": "Core",
@@ -130,10 +118,7 @@
   {
     "aep": 19,
     "title": "Open Development Model",
-    "author": [
-      "Greg Osuri (@gosuri)",
-      "Anil Murty (@anilmurty)"
-    ],
+    "author": "Greg Osuri (@gosuri) Anil Murty (@anilmurty)",
     "status": "Final",
     "type": "Meta",
     "created": "2022-12-19T00:00:00.000Z",
@@ -269,17 +254,15 @@
   },
   {
     "aep": 29,
-    "title": "Verifiable Hardware Provisioning",
-    "author": "Sriram Vishwanath (@sriramvish) Artur Troian (@troian)",
+    "title": "Hardware Verification using Trusted Execution",
+    "author": "Anil Murty (@anilmurty) Artur Troian (@troian)",
     "status": "Final",
     "type": "Standard",
     "category": "Core",
     "created": "2024-06-27T00:00:00.000Z",
-    "updated": "2024-12-01T00:00:00.000Z",
-    "estimated-completion": "2025-07-01T00:00:00.000Z",
-    "roadmap": "major",
-    "discussions-to": "https://github.com/orgs/akash-network/discussions/614",
-    "resolution": "https://www.mintscan.io/akash/proposals/261"
+    "updated": "2025-10-09T00:00:00.000Z",
+    "estimated-completion": "2026-01-30T00:00:00.000Z",
+    "roadmap": "major"
   },
   {
     "aep": 3,
@@ -301,9 +284,10 @@
     "type": "Standard",
     "category": "Core",
     "created": "2024-08-29T00:00:00.000Z",
-    "updated": "2024-01-11T00:00:00.000Z",
-    "estimated-completion": "2025-02-28T00:00:00.000Z",
+    "updated": "2024-04-22T00:00:00.000Z",
+    "estimated-completion": "2025-08-31T00:00:00.000Z",
     "roadmap": "major",
+    "requires": 61,
     "discussions-to": "https://github.com/orgs/akash-network/discussions/673",
     "resolution": "https://www.mintscan.io/akash/proposals/268"
   },
@@ -328,12 +312,12 @@
     "aep": 32,
     "title": "Akash Provider Console 1.0",
     "author": "Anil Murty (@anilmurty) Jigar Patel (@jigar-arc10) Deval Patel (devalpatel67)",
-    "status": "Draft",
+    "status": "Final",
     "type": "Standard",
     "category": "Interface",
     "created": "2024-12-01T00:00:00.000Z",
     "updated": "2025-01-10T00:00:00.000Z",
-    "estimated-completion": "2025-01-30T00:00:00.000Z",
+    "completed": "2025-02-18T00:00:00.000Z",
     "roadmap": "major"
   },
   {
@@ -341,13 +325,13 @@
     "title": "Escrow Balance Alerts in Akash Console",
     "description": "Alerting system for low escrow balance",
     "author": "Anil Murty (@anilmurty) Maxime Beauchamp (@baktun14)",
-    "status": "Draft",
+    "status": "Final",
     "type": "Standard",
     "category": "Interface",
     "created": "2024-12-01T00:00:00.000Z",
-    "updated": "2025-01-10T00:00:00.000Z",
-    "estimated-completion": "2025-02-28T00:00:00.000Z",
-    "roadmap": "minor"
+    "updated": "2025-03-12T00:00:00.000Z",
+    "completed": "2025-06-30T00:00:00.000Z",
+    "roadmap": "major"
   },
   {
     "aep": 34,
@@ -358,7 +342,7 @@
     "category": "Interface",
     "created": "2024-12-01T00:00:00.000Z",
     "updated": "2025-01-10T00:00:00.000Z",
-    "estimated-completion": "2025-03-15T00:00:00.000Z",
+    "estimated-completion": "2025-08-15T00:00:00.000Z",
     "roadmap": "minor"
   },
   {
@@ -369,8 +353,8 @@
     "type": "Standard",
     "category": "Interface",
     "created": "2024-12-01T00:00:00.000Z",
-    "updated": "2024-12-06T00:00:00.000Z",
-    "estimated-completion": "2025-03-30T00:00:00.000Z",
+    "updated": "2024-03-19T00:00:00.000Z",
+    "estimated-completion": "2025-09-30T00:00:00.000Z",
     "roadmap": "minor"
   },
   {
@@ -381,8 +365,8 @@
     "type": "Standard",
     "category": "Interface",
     "created": "2024-12-01T00:00:00.000Z",
-    "updated": "2024-12-01T00:00:00.000Z",
-    "estimated-completion": "2025-06-30T00:00:00.000Z",
+    "updated": "2025-07-07T00:00:00.000Z",
+    "estimated-completion": "2026-01-15T00:00:00.000Z",
     "roadmap": "minor"
   },
   {
@@ -393,8 +377,8 @@
     "type": "Standard",
     "category": "Core",
     "created": "2024-12-01T00:00:00.000Z",
-    "updated": "2024-12-09T00:00:00.000Z",
-    "estimated-completion": "2025-04-30T00:00:00.000Z",
+    "updated": "2025-07-07T00:00:00.000Z",
+    "estimated-completion": "2025-09-15T00:00:00.000Z",
     "roadmap": "minor"
   },
   {
@@ -405,8 +389,8 @@
     "type": "Standard",
     "category": "Interface",
     "created": "2024-12-01T00:00:00.000Z",
-    "updated": "2024-12-07T00:00:00.000Z",
-    "estimated-completion": "2025-07-30T00:00:00.000Z",
+    "updated": "2025-07-07T00:00:00.000Z",
+    "estimated-completion": "2025-12-31T00:00:00.000Z",
     "roadmap": "minor"
   },
   {
@@ -417,17 +401,14 @@
     "type": "Standard",
     "category": "Interface",
     "created": "2024-12-01T00:00:00.000Z",
-    "updated": "2025-01-11T00:00:00.000Z",
-    "estimated-completion": "2025-06-30T00:00:00.000Z",
+    "updated": "2025-07-07T00:00:00.000Z",
+    "estimated-completion": "2025-12-31T00:00:00.000Z",
     "roadmap": "minor"
   },
   {
     "aep": 4,
     "title": "Testnet: Alpha",
-    "author": [
-      "Greg Osuri (@gosuri)",
-      "Adam Bozanich (@boz)"
-    ],
+    "author": "Greg Osuri (@gosuri) Adam Bozanich (@boz)",
     "status": "Final",
     "type": "Meta",
     "requires": [
@@ -447,7 +428,7 @@
     "category": "Interface",
     "created": "2024-12-01T00:00:00.000Z",
     "updated": "2025-01-10T00:00:00.000Z",
-    "estimated-completion": "2025-05-15T00:00:00.000Z",
+    "estimated-completion": "2026-02-15T00:00:00.000Z",
     "roadmap": "minor"
   },
   {
@@ -458,8 +439,8 @@
     "type": "Standard",
     "category": "Interface",
     "created": "2024-12-01T00:00:00.000Z",
-    "updated": "2024-12-01T00:00:00.000Z",
-    "estimated-completion": "2025-04-30T00:00:00.000Z",
+    "updated": "2024-07-30T00:00:00.000Z",
+    "estimated-completion": "2025-10-30T00:00:00.000Z",
     "roadmap": "minor"
   },
   {
@@ -470,8 +451,8 @@
     "type": "Standard",
     "category": "Interface",
     "created": "2024-12-01T00:00:00.000Z",
-    "updated": "2024-12-01T00:00:00.000Z",
-    "estimated-completion": "2025-12-30T00:00:00.000Z",
+    "updated": "2025-07-07T00:00:00.000Z",
+    "estimated-completion": "2026-01-30T00:00:00.000Z",
     "roadmap": "minor"
   },
   {
@@ -482,8 +463,8 @@
     "type": "Standard",
     "category": "Interface",
     "created": "2024-12-01T00:00:00.000Z",
-    "updated": "2024-01-11T00:00:00.000Z",
-    "estimated-completion": "2025-06-30T00:00:00.000Z",
+    "updated": "2025-07-30T00:00:00.000Z",
+    "estimated-completion": "2025-11-15T00:00:00.000Z",
     "roadmap": "minor"
   },
   {
@@ -561,10 +542,7 @@
   {
     "aep": 5,
     "title": "AKT: Akash Network Token & Mining Economics",
-    "author": [
-      "Greg Osuri (@gosuri)",
-      "Adam Bozanich (@boz)"
-    ],
+    "author": "Greg Osuri (@gosuri) Adam Bozanich (@boz)",
     "status": "Final",
     "type": "Standard",
     "category": "Economics",
@@ -605,7 +583,7 @@
     "category": "Interface",
     "created": "2024-12-01T00:00:00.000Z",
     "updated": "2024-12-01T00:00:00.000Z",
-    "estimated-completion": "2025-06-30T00:00:00.000Z",
+    "estimated-completion": "2026-01-31T00:00:00.000Z",
     "roadmap": "minor"
   },
   {
@@ -616,8 +594,8 @@
     "type": "Standard",
     "category": "Interface",
     "created": "2024-12-01T00:00:00.000Z",
-    "updated": "2025-01-10T00:00:00.000Z",
-    "estimated-completion": "2025-05-30T00:00:00.000Z",
+    "updated": "2025-07-30T00:00:00.000Z",
+    "estimated-completion": "2026-01-31T00:00:00.000Z",
     "roadmap": "major"
   },
   {
@@ -629,7 +607,7 @@
     "category": "Core",
     "created": "2024-01-05T00:00:00.000Z",
     "updated": "2025-01-10T00:00:00.000Z",
-    "estimated-completion": "2025-05-15T00:00:00.000Z",
+    "estimated-completion": "2025-12-15T00:00:00.000Z",
     "roadmap": "minor"
   },
   {
@@ -640,32 +618,31 @@
     "type": "Standard",
     "category": "Economics",
     "created": "2024-12-07T00:00:00.000Z",
-    "updated": "2024-12-07T00:00:00.000Z",
-    "estimated-completion": "2025-06-30T00:00:00.000Z",
-    "roadmap": "minor"
+    "updated": "2025-07-07T00:00:00.000Z",
+    "superseeded-by": 76
   },
   {
     "aep": 56,
-    "title": "Unified Akash Integration API",
-    "author": "Anil Murty (@anilmurty) Artur Troian (@troian) Iaroslav Gryshaiev (@ygrishajev) Maxime Beauchamp (@baktun14)",
+    "title": "Chain SDK",
+    "author": "Anil Murty (@anilmurty) Artur Troian (@troian) Serhii Stotsky (@baktun14) Maxime Beauchamp (@baktun14)",
     "status": "Draft",
     "type": "Standard",
     "category": "Interface",
     "created": "2025-01-10T00:00:00.000Z",
-    "updated": "2025-01-10T00:00:00.000Z",
-    "estimated-completion": "2025-02-15T00:00:00.000Z",
+    "updated": "2025-07-30T00:00:00.000Z",
+    "estimated-completion": "2025-09-15T00:00:00.000Z",
     "roadmap": "major"
   },
   {
     "aep": 57,
     "title": "Automatic Escrow Top Up",
-    "author": "Iaroslav Gryshaiev (@ygryshajev) Maxime Beauchamp (@baktun14) Anil Murty (@anilmurty)",
+    "author": "Iaroslav Gryshaiev (@ygrishajev) Maxime Beauchamp (@baktun14) Anil Murty (@anilmurty)",
     "status": "Draft",
     "type": "Standard",
     "category": "Interface",
     "created": "2024-01-05T00:00:00.000Z",
     "updated": "2024-01-05T00:00:00.000Z",
-    "estimated-completion": "2025-01-30T00:00:00.000Z",
+    "completed": "2025-01-30T00:00:00.000Z",
     "roadmap": "minor"
   },
   {
@@ -676,8 +653,8 @@
     "type": "Standard",
     "category": "Interface",
     "created": "2024-01-05T00:00:00.000Z",
-    "updated": "2024-01-05T00:00:00.000Z",
-    "estimated-completion": "2025-05-15T00:00:00.000Z",
+    "updated": "2025-07-07T00:00:00.000Z",
+    "estimated-completion": "2026-01-30T00:00:00.000Z",
     "roadmap": "minor"
   },
   {
@@ -688,9 +665,9 @@
     "type": "Standard",
     "category": "Interface",
     "created": "2024-01-05T00:00:00.000Z",
-    "updated": "2025-01-10T00:00:00.000Z",
-    "estimated-completion": "2025-03-15T00:00:00.000Z",
-    "roadmap": "minor"
+    "updated": "2025-07-30T00:00:00.000Z",
+    "estimated-completion": "2025-08-30T00:00:00.000Z",
+    "roadmap": "major"
   },
   {
     "aep": 6,
@@ -706,34 +683,130 @@
   },
   {
     "aep": 60,
-    "title": "Akash at Home",
-    "author": "Greg Osuri (@gosuri)",
+    "title": "Akash at Home - MVP",
+    "author": "Anil Murty (@anilmurty) Damir Simpovic (@shimpa1) Jigar Patel (@jigar-arc10) Deval Patel (@devalpatel67) Greg Osuri (@gosuri)",
     "status": "Draft",
     "type": "Meta",
     "created": "2024-12-01T00:00:00.000Z",
-    "updated": "2024-12-06T00:00:00.000Z",
-    "estimated-completion": "2026-03-30T00:00:00.000Z",
+    "updated": "2025-07-24T00:00:00.000Z",
+    "estimated-completion": "2025-12-31T00:00:00.000Z",
     "roadmap": "major"
   },
   {
     "aep": 61,
-    "title": "Akash Network store optimizations",
+    "title": "Enhanced Read Performance Onchain Queries",
     "author": "Artur Troian (@troian)",
     "status": "Last Call",
     "type": "Standard",
     "category": "Core",
     "created": "2025-01-30T00:00:00.000Z",
-    "updated": "2025-01-30T00:00:00.000Z",
-    "estimated-completion": "2025-02-28T00:00:00.000Z",
+    "updated": "2025-02-18T00:00:00.000Z",
+    "completed": "2025-03-12T00:00:00.000Z",
     "roadmap": "major"
+  },
+  {
+    "aep": 62,
+    "title": "Provider Console - Node Manager",
+    "author": "Anil Murty (@anilmurty) Jigar Patel (@jigar-arc10) Deval Patel (devalpatel67)",
+    "status": "Final",
+    "type": "Standard",
+    "category": "Interface",
+    "created": "2024-03-15T00:00:00.000Z",
+    "updated": "2025-04-28T00:00:00.000Z",
+    "completed": "2025-04-17T00:00:00.000Z",
+    "resolution": "https://github.com/akash-network/console/milestone/17?closed=1",
+    "roadmap": "minor"
+  },
+  {
+    "aep": 63,
+    "title": "Console API for Managed Wallet Users - v1",
+    "author": "Anil Murty (@anilmurty) Maxime Beauchamp (@baktun14)",
+    "status": "Final",
+    "type": "Standard",
+    "category": "Interface",
+    "created": "2024-03-14T00:00:00.000Z",
+    "updated": "2025-05-28T00:00:00.000Z",
+    "completed": "2025-05-28T00:00:00.000Z",
+    "roadmap": "major"
+  },
+  {
+    "aep": 64,
+    "title": "JWT Authentication for Provider API",
+    "author": "Artur Troian (@troian)",
+    "status": "Final",
+    "type": "Standard",
+    "category": "Core",
+    "created": "2025-04-03T00:00:00.000Z",
+    "updated": "2025-07-30T00:00:00.000Z",
+    "estimated-completion": "2025-08-15T00:00:00.000Z",
+    "roadmap": "major"
+  },
+  {
+    "aep": 65,
+    "title": "Confidential Computing",
+    "author": "Anil Murty (@anilmurty)",
+    "status": "Draft",
+    "type": "Standard",
+    "category": "Core",
+    "created": "2025-05-14T00:00:00.000Z",
+    "updated": "2025-05-14T00:00:00.000Z",
+    "estimated-completion": "2025-12-31T00:00:00.000Z",
+    "roadmap": "major"
+  },
+  {
+    "aep": 66,
+    "title": "Custom Domain Certificates",
+    "author": "Joao Luna (@cloud-j-luna)",
+    "status": "Draft",
+    "type": "Standard",
+    "category": "Core",
+    "created": "2025-05-13T00:00:00.000Z",
+    "updated": "2025-07-07T00:00:00.000Z",
+    "estimated-completion": "2025-11-30T00:00:00.000Z",
+    "roadmap": "major"
+  },
+  {
+    "aep": 67,
+    "title": "Console Bid PreCheck",
+    "author": "Anil Murty (@anilmurty)",
+    "status": "Draft",
+    "type": "Standard",
+    "category": "Core",
+    "created": "2025-05-16T00:00:00.000Z",
+    "updated": "2025-07-30T00:00:00.000Z",
+    "estimated-completion": "2025-08-30T00:00:00.000Z",
+    "roadmap": "major"
+  },
+  {
+    "aep": 68,
+    "title": "Console - Billing & Usage",
+    "author": "Anil Murty (@anilmurty)",
+    "status": "Draft",
+    "type": "Standard",
+    "category": "Interface",
+    "created": "2025-05-20T00:00:00.000Z",
+    "updated": "2025-07-31T00:00:00.000Z",
+    "completed": "2025-07-31T00:00:00.000Z",
+    "resolution": "https://github.com/akash-network/console/milestone/20",
+    "roadmap": "major"
+  },
+  {
+    "aep": 69,
+    "title": "Provider Console API - v1",
+    "author": "Anil Murty (@anilmurty) Jigar Patel (@jigar-arc10) Deval Patel (devalpatel67)",
+    "status": "Draft",
+    "type": "Standard",
+    "category": "Interface",
+    "created": "2025-05-22T00:00:00.000Z",
+    "updated": "2025-07-30T00:00:00.000Z",
+    "completed": "2025-07-25T00:00:00.000Z",
+    "resolution": "https://github.com/akash-network/console/milestone/22",
+    "roadmap": "minor"
   },
   {
     "aep": 7,
     "title": "Incentivized Testnet 1: Akashian Challenge Phase 1",
-    "author": [
-      "Greg Osuri (@gosuri)",
-      "Chris Remus (@chris-remus)"
-    ],
+    "author": "Greg Osuri (@gosuri) Chris Remus (@chris-remus)",
     "status": "Final",
     "type": "Meta",
     "requires": 5,
@@ -744,12 +817,113 @@
     "roadmap": "major"
   },
   {
+    "aep": 70,
+    "title": [
+      "Console API - JWT",
+      "Events & Logs"
+    ],
+    "author": "Anil Murty (@anilmurty) Maxime Beauchamp (@baktun14)",
+    "status": "draft",
+    "type": "Standard",
+    "category": "Interface",
+    "created": "2025-05-28T00:00:00.000Z",
+    "updated": "2025-07-30T00:00:00.000Z",
+    "estimated-completion": "2025-08-30T00:00:00.000Z",
+    "roadmap": "minor"
+  },
+  {
+    "aep": 71,
+    "title": "Deployment Closure Alert in Console",
+    "description": "Alert and Notification when deployment closes for any reason",
+    "author": "Anil Murty (@anilmurty) Iaroslav Grishajev (@ygrishajev)",
+    "status": "Final",
+    "type": "Standard",
+    "category": "Interface",
+    "created": "2025-07-30T00:00:00.000Z",
+    "updated": "2025-07-30T00:00:00.000Z",
+    "completed": "2025-07-17T00:00:00.000Z",
+    "roadmap": "minor"
+  },
+  {
+    "aep": 72,
+    "title": "Console - Improved User Onboarding",
+    "description": "Console User Onboarding on par with leading SaaS and CSPs",
+    "author": "Anil Murty (@anilmurty) Maxime Beauchamp (@baktun14)",
+    "status": "Draft",
+    "type": "Standard",
+    "category": "Interface",
+    "created": "2025-07-31T00:00:00.000Z",
+    "updated": "2025-07-31T00:00:00.000Z",
+    "estimated-completion": "2025-08-30T00:00:00.000Z",
+    "roadmap": "major"
+  },
+  {
+    "aep": 73,
+    "title": "Console - New Product Announcement feature",
+    "description": "A way to inform customers and users about what's new in Akash",
+    "author": "Anil Murty (@anilmurty)",
+    "status": "Draft",
+    "type": "Standard",
+    "category": "Interface",
+    "created": "2025-07-31T00:00:00.000Z",
+    "updated": "2025-07-31T00:00:00.000Z",
+    "estimated-completion": "2025-08-31T00:00:00.000Z",
+    "roadmap": "major"
+  },
+  {
+    "aep": 74,
+    "title": "Console - Auto Credit Reload",
+    "description": "Make it easier for customers to keep their deployments running",
+    "author": "Anil Murty (@anilmurty)",
+    "status": "Draft",
+    "type": "Standard",
+    "category": "Interface",
+    "created": "2025-07-31T00:00:00.000Z",
+    "updated": "2025-08-01T00:00:00.000Z",
+    "estimated-completion": "2025-09-30T00:00:00.000Z",
+    "roadmap": "minor"
+  },
+  {
+    "aep": 75,
+    "title": "Multi-depositor escrow account",
+    "author": "Artur Troian (@troian)",
+    "status": "Final",
+    "type": "Standard",
+    "category": "Core",
+    "created": "2025-08-18T00:00:00.000Z",
+    "updated": "2025-09-02T00:00:00.000Z",
+    "estimated-completion": "2025-08-30T00:00:00.000Z",
+    "roadmap": "major"
+  },
+  {
+    "aep": 76,
+    "title": "Burn Mint Equilibrium On Akash",
+    "author": "Greg Osuri (@gosuri)",
+    "status": "Draft",
+    "type": "Standard",
+    "category": "Economics",
+    "created": "2025-09-21T00:00:00.000Z",
+    "updated": "2025-09-21T00:00:00.000Z",
+    "estimated-completion": "2025-11-30T00:00:00.000Z",
+    "roadmap": "major",
+    "replaces": 55
+  },
+  {
+    "aep": 77,
+    "title": "Multi-depositor escrow account",
+    "author": "Artur Troian (@troian)",
+    "status": "Final",
+    "type": "Standard",
+    "category": "Core",
+    "created": "2025-08-18T00:00:00.000Z",
+    "updated": "2025-09-02T00:00:00.000Z",
+    "estimated-completion": "2025-10-21T00:00:00.000Z",
+    "roadmap": "major"
+  },
+  {
     "aep": 8,
     "title": "Mainnet 1: Security",
-    "author": [
-      "Greg Osuri (@gosuri)",
-      "Adam Bozanich (@boz)"
-    ],
+    "author": "Greg Osuri (@gosuri) Adam Bozanich (@boz)",
     "status": "Final",
     "type": "Standard",
     "category": "Core",
@@ -761,10 +935,7 @@
   {
     "aep": 9,
     "title": "Trusted Providers",
-    "author": [
-      "Greg Osuri (@gosuri)",
-      "Adam Bozanich (@boz)"
-    ],
+    "author": "Greg Osuri (@gosuri) Adam Bozanich (@boz)",
     "status": "Final",
     "type": "Standard",
     "category": "Core",
