@@ -1,7 +1,7 @@
 ---
 aep: 1
 title: AEP Purpose and Guidelines
-status: Final
+status: Draft
 type: Meta
 author: Greg Osuri (@gosuri) Adam Bozanich (@boz)
 discussions-to: https://github.com/ovrclk/aep/issues/1
